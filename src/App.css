@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* ************************************** */
+
+nav
+{
+	background-color: #383c44;
+}
+	nav > ul
+	{
+		list-style:none;
+		margin:0;
+		padding:16px;
+
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+	}
+	nav a
+	{
+		color:aliceblue;
+		font-size:24px;
+		text-decoration:none;
+	}
